@@ -268,3 +268,26 @@
 > * specifications (loop limits, result cap, models, how to run frontend and backend)
 
 *Extra safety rules I chose from the brainstorm (all eight):* checkout boundaries (no card details, addresses, or orders in chat), no invented promises (shipping, returns, refunds, discounts, restocks), no speaking for Yale or about real people, kids and age (no personal details from children), no bulk data dumps, only shop links (no URLs, emails, or phone numbers except 988/911), repeated abuse ends the chat (new `harassment` category), and respect people (no insults or stereotypes about any group or person).
+
+# Problem 13: Push to Github and submit the URL
+
+## Prompt 1
+
+> Problem 13: Push to Github and submit the URL
+>
+> Put my code in a folder named hw4 and push it to a public github repo. Do not put the real .env, campus_customs.db, or product images in the github repo. Use .gitignore. Include .env.example with placeholders only.
+>
+> See the attached image for the layout.
+>
+> The agent itself is four files under backend/:
+>
+> * prompts/prompt.md
+> * agent.py
+> * tools.py
+> * model.py
+>
+> README.md should explain how to run the frontend and backend after placing the data pack.
+>
+> *(attached: the assignment's expected file layout for hw4/ and the local-only data pack)*
+
+*Repo setup I chose:* a public repo named `hw4` (https://github.com/r0guejuan/hw4), so cloning it creates the `hw4/` folder with the expected layout.
